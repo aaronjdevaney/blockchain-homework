@@ -1,0 +1,32 @@
+=============== Feb 9, 2021 (EST) ===============
+14:35:40.630847 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:35:40.643399 db@open opening
+14:35:40.644750 version@stat F·[] S·0B[] Sc·[]
+14:35:40.654599 db@janitor F·2 G·0
+14:35:40.654671 db@open done T·11.225528ms
+14:35:40.655868 db@close closing
+14:35:40.656032 db@close done T·159.5µs
+=============== Feb 9, 2021 (EST) ===============
+15:01:05.873684 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:01:05.875450 version@stat F·[] S·0B[] Sc·[]
+15:01:05.875486 db@open opening
+15:01:05.875566 journal@recovery F·1
+15:01:05.882755 journal@recovery recovering @1
+15:01:05.890560 memdb@flush created L0@2 N·16 S·1KiB "7SK..3\xe1\x8d,v3":"\x85^\xfe..\x1e\x83g,v6"
+15:01:05.898194 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:01:05.920775 db@janitor F·3 G·0
+15:01:05.920839 db@open done T·45.329812ms
+15:11:44.233314 db@close closing
+15:11:44.234351 db@close done T·1.033734ms
+=============== Feb 9, 2021 (EST) ===============
+15:12:06.680052 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:06.680624 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:12:06.680662 db@open opening
+15:12:06.680743 journal@recovery F·1
+15:12:06.686517 journal@recovery recovering @3
+15:12:06.695709 memdb@flush created L0@5 N·12 S·925B "Dat..ion,v18":"r\x00\x00..\x0e\xe1',v25"
+15:12:06.702550 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:12:06.722914 db@janitor F·4 G·0
+15:12:06.722954 db@open done T·42.276782ms
+18:42:41.600234 db@close closing
+18:42:41.600833 db@close done T·598.96µs
